@@ -25,6 +25,8 @@
             android:gravity="bottom">
 
 
+
+
             <androidx.cardview.widget.CardView
                 android:id="@+id/card1"
                 android:layout_width="250dp"
@@ -282,10 +284,8 @@
             android:id="@+id/button2"
             android:layout_width="322dp"
             android:layout_height="60dp"
-            android:backgroundTint="@color/colorPrimary"
-            android:outlineAmbientShadowColor="#be0100"
-            android:outlineSpotShadowColor="#be0100"
-            android:shadowColor="#be0100"
+            android:background="@drawable/button_bg_stroke"
+            android:padding="15dp"
             android:text="NEXT"
             android:textColor="#be0100"
             app:layout_constraintBottom_toBottomOf="parent"
