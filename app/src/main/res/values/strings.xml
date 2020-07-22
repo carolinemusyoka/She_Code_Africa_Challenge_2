@@ -2,4 +2,18 @@
     <string name="app_name">SCAChallenge2</string>
     <string name="reference">Reference:m79540-0006</string>
     <string name="price">Price</string>
+    <string name="todo">TODO</string>
+    <string name="tudor_black_bay">Tudor Black Bay</string>
+    <string name="reference_m79540_0006">Reference:m79540-0006</string>
+    <string name="_658_00">$658.00</string>
+    <string name="next">NEXT</string>
+    <string name="total">TOTAL</string>
+    <string name="_1598_00">$1598.00</string>
+    <string name="my_bag_03">MY BAG -03</string>
+    <string name="add_to_bag">ADD TO BAG</string>
+    <string name="info">Introduced at Baselworld 2017, this elegant, sporty watch captures the essence of Black Bay in a more formal version.</string>
+    <string name="_5_year_guarantee">5 year Guarantee</string>
+    <string name="automatic">Automatic</string>
+    <string name="_41mm_steel_case">41mm steel case</string>
+    <string name="waterproof">Waterproof</string>
 </resources>

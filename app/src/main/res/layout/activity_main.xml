@@ -30,11 +30,9 @@
                 android:layout_width="250dp"
                 android:layout_height="400dp"
                 android:layout_marginStart="15.4dp"
-                android:layout_marginLeft="15.4dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="30dp"
 
-                android:layout_marginRight="10dp"
                 android:layout_marginBottom="60dp"
                 android:elevation="0dp"
                 app:cardBackgroundColor="#f1f1f1"
@@ -44,7 +42,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:orientation="vertical">
 
 
@@ -55,14 +53,15 @@
                         android:layout_marginStart="210dp"
                         android:layout_marginTop="10dp"
                         android:background="#f1f1f1"
-                        app:srcCompat="@drawable/close" />
+                        app:srcCompat="@drawable/close"
+                        android:contentDescription="@string/todo" />
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="245dp"
                         android:layout_margin="15.4dp"
 
-                        android:contentDescription="TODO"
+                        android:contentDescription="@string/todo"
                         android:src="@drawable/watch" />
 
                     <TextView
@@ -70,11 +69,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start|center"
                         android:layout_margin="10.4dp"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="15.4dp"
-                        android:layout_marginRight="15.4dp"
+                        android:layout_marginEnd="15.4dp"
                         android:lineSpacingExtra="2.6sp"
-                        android:text="Tudor Black Bay"
+                        android:text="@string/tudor_black_bay"
                         android:textColor="#000"
                         android:textSize="13.4sp" />
 
@@ -83,20 +82,19 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
                         android:layout_marginStart="15.4dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="1dp"
                         android:lineSpacingExtra="2.8sp"
-                        android:text="Reference:m79540-0006"
+                        android:text="@string/reference_m79540_0006"
                         android:textColor="#131314"
                         android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="start"
                         android:layout_marginStart="15.4dp"
                         android:layout_marginTop="10dp"
-                        android:text="$658.00"
+                        android:text="@string/_658_00"
                         android:textColor="#be0100" />
 
 
@@ -111,11 +109,9 @@
                 android:layout_width="250dp"
                 android:layout_height="400dp"
                 android:layout_marginStart="15.4dp"
-                android:layout_marginLeft="15.4dp"
                 android:layout_marginTop="10dp"
 
                 android:layout_marginEnd="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginBottom="60dp"
                 android:elevation="0dp"
                 app:cardBackgroundColor="#f1f1f1"
@@ -134,7 +130,8 @@
                         android:layout_marginStart="210dp"
                         android:layout_marginTop="10dp"
                         android:background="#f1f1f1"
-                        app:srcCompat="@drawable/close" />
+                        app:srcCompat="@drawable/close"
+                        android:contentDescription="@string/todo" />
 
 
                     <ImageView
@@ -142,7 +139,7 @@
                         android:layout_height="245dp"
                         android:layout_margin="15.4dp"
 
-                        android:contentDescription="TODO"
+                        android:contentDescription="@string/todo"
                         android:src="@drawable/watch" />
 
                     <TextView
@@ -150,11 +147,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start|center"
                         android:layout_margin="10.4dp"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="15.4dp"
-                        android:layout_marginRight="15.4dp"
+                        android:layout_marginEnd="15.4dp"
                         android:lineSpacingExtra="2.6sp"
-                        android:text="Tudor Black Bay"
+                        android:text="@string/tudor_black_bay"
                         android:textColor="#000"
                         android:textSize="13.4sp" />
 
@@ -163,20 +160,19 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
                         android:layout_marginStart="15.4dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="1dp"
                         android:lineSpacingExtra="2.8sp"
-                        android:text="Reference:m79540-0006"
+                        android:text="@string/reference_m79540_0006"
                         android:textColor="#131314"
                         android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="start"
                         android:layout_marginStart="15.4dp"
                         android:layout_marginTop="10dp"
-                        android:text="$658.00"
+                        android:text="@string/_658_00"
                         android:textColor="#be0100" />
 
 
@@ -191,11 +187,9 @@
                 android:layout_width="250dp"
                 android:layout_height="400dp"
                 android:layout_marginStart="15.4dp"
-                android:layout_marginLeft="15.4dp"
                 android:layout_marginTop="10dp"
 
                 android:layout_marginEnd="30dp"
-                android:layout_marginRight="10dp"
                 android:layout_marginBottom="60dp"
                 android:elevation="0dp"
                 app:cardBackgroundColor="#f1f1f1"
@@ -214,7 +208,8 @@
                         android:layout_marginStart="210dp"
                         android:layout_marginTop="10dp"
                         android:background="#f1f1f1"
-                        app:srcCompat="@drawable/close" />
+                        app:srcCompat="@drawable/close"
+                        android:contentDescription="@string/todo" />
 
 
                     <ImageView
@@ -222,7 +217,7 @@
                         android:layout_height="245dp"
                         android:layout_margin="15.4dp"
 
-                        android:contentDescription="TODO"
+                        android:contentDescription="@string/todo"
                         android:src="@drawable/watch" />
 
                     <TextView
@@ -230,11 +225,11 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start|center"
                         android:layout_margin="10.4dp"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="15.4dp"
-                        android:layout_marginRight="15.4dp"
+                        android:layout_marginEnd="15.4dp"
                         android:lineSpacingExtra="2.6sp"
-                        android:text="Tudor Black Bay"
+                        android:text="@string/tudor_black_bay"
                         android:textColor="#000"
                         android:textSize="13.4sp" />
 
@@ -243,20 +238,19 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
                         android:layout_marginStart="15.4dp"
-                        android:layout_marginLeft="20dp"
                         android:layout_marginTop="1dp"
                         android:lineSpacingExtra="2.8sp"
-                        android:text="Reference:m79540-0006"
+                        android:text="@string/reference_m79540_0006"
                         android:textColor="#131314"
                         android:textSize="14sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="left"
+                        android:layout_gravity="start"
                         android:layout_marginStart="15.4dp"
                         android:layout_marginTop="10dp"
-                        android:text="$658.00"
+                        android:text="@string/_658_00"
                         android:textColor="#be0100" />
 
 
@@ -284,7 +278,7 @@
             android:layout_height="60dp"
             android:background="@drawable/button_bg_stroke"
             android:padding="15dp"
-            android:text="NEXT"
+            android:text="@string/next"
             android:textColor="#be0100"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -296,7 +290,7 @@
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TOTAL"
+            android:text="@string/total"
             android:textColor="#040303"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -310,7 +304,7 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$1598.00"
+            android:text="@string/_1598_00"
             android:textColor="#040303"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -326,10 +320,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/cardview"
-        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="-40dp"
-        android:text=" MY BAG -03"
+        android:text="@string/my_bag_03"
         android:textColor="#050505"
         android:textSize="20sp" />
 
@@ -337,9 +331,10 @@
         android:id="@+id/imageView7"
         android:layout_width="10dp"
         android:layout_height="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="18dp"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/back"
+        android:contentDescription="@string/todo" />
 
 
 </RelativeLayout>

@@ -8,18 +8,20 @@
     tools:context=".ProductActivity">
 
     <LinearLayout
+        android:id="@+id/linearl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="411dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal" />
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="301dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginBottom="380dp"
         android:elevation="0dp"
         app:cardBackgroundColor="#f1f1f1"
@@ -37,16 +39,17 @@
             android:layout_height="243dp"
             android:layout_margin="30.4dp"
 
-            android:contentDescription="TODO"
+            android:contentDescription="@string/todo"
             android:src="@drawable/watch" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="300dp"
+            android:layout_marginStart="300dp"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/heart" />
+            app:srcCompat="@drawable/heart"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -54,7 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="25dp"
-            app:srcCompat="@drawable/back" />
+            app:srcCompat="@drawable/back"
+            android:contentDescription="@string/todo" />
 
 
     </androidx.cardview.widget.CardView>
@@ -76,7 +80,7 @@
             android:outlineAmbientShadowColor="#be0100"
             android:outlineSpotShadowColor="#be0100"
             android:shadowColor="#be0100"
-            android:text="ADD TO BAG"
+            android:text="@string/add_to_bag"
             android:textColor="@color/colorPrimary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -98,7 +102,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tudor Black Bay"
+            android:text="@string/tudor_black_bay"
             android:textColor="#070707"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -112,7 +116,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="$658.00"
+            android:text="@string/_658_00"
             android:textColor="#be0100"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -140,7 +144,7 @@
             android:id="@+id/textView4"
             android:layout_width="337dp"
             android:layout_height="37dp"
-            android:text="Introduced at Baselworld 2017, this elegant, sporty watch captures the essence of Black Bay in a more formal version."
+            android:text="@string/info"
             android:textColor="#F5938D8D"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -161,13 +165,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/shield" />
+            app:srcCompat="@drawable/shield"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="132dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -176,7 +181,8 @@
             app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/watchcase" />
+            app:srcCompat="@drawable/watchcase"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -189,7 +195,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/automatic" />
+            app:srcCompat="@drawable/automatic"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -199,14 +206,15 @@
             android:layout_marginEnd="44dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4"
-            app:srcCompat="@drawable/waterproof" />
+            app:srcCompat="@drawable/waterproof"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="65dp"
             android:layout_height="28dp"
             android:layout_marginTop="12dp"
-            android:text="5 year Guarantee"
+            android:text="@string/_5_year_guarantee"
             android:textColor="#F5938D8D"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -221,7 +229,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="104dp"
-            android:text="Automatic"
+            android:text="@string/automatic"
             android:textColor="#F5938D8D"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -235,8 +243,8 @@
             android:id="@+id/textView9"
             android:layout_width="65dp"
             android:layout_height="28dp"
-            android:layout_marginLeft="5dp"
-            android:text="41mm steel case"
+            android:layout_marginStart="5dp"
+            android:text="@string/_41mm_steel_case"
             android:textColor="#F5938D8D"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -250,7 +258,7 @@
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Waterproof"
+            android:text="@string/waterproof"
             android:textColor="#F5938D8D"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
